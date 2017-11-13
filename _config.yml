@@ -11,6 +11,16 @@ show_category_count: false ## If you want to show the count of categories in the
 shareto: ## If you want to use the share button please set the value to true.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
+valine:
+  enable: false ## if you want to use Valine comment system, please set the value to true
+  appid:  ## your leancloud application appid
+  appkey:  ## your leancloud application appkey
+  notify: false ## mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false ## Verification code
+  placeholder: Just go go ## comment input placeholder text 
+  avatar: 'mm' ## header image https://github.com/xCss/Valine/wiki
+  pageSize: 10 ## 
+  guest_info: nick,mail,link
 
 gitment:
   enable: true ## If you want to use Gitment comment system please set the value to true.
