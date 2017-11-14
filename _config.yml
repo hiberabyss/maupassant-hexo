@@ -1,8 +1,8 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
-disqus: ## Your disqus_shortname, e.g. username
+# disqus: hiberabyss ## Your disqus_shortname, e.g. username
 
 gitment:
-  enable: true ## If you want to use Gitment comment system please set the value to true.
+  enable: false ## If you want to use Gitment comment system please set the value to true.
   owner: hiberabyss
   repo: BlogComments
   client_id: 1d8f8c20107ae25974a9
@@ -12,17 +12,18 @@ uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8
 changyan_conf: ## You changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
+
 # https://valine.js.org
 valine:
-  enable: false ## if you want to use Valine comment system, please set the value to true
-  appid:  ## your leancloud application appid
-  appkey:  ## your leancloud application appkey
-  notify: false ## mail notifier , https://github.com/xCss/Valine/wiki
+  enable: true ## if you want to use Valine comment system, please set the value to true
+  appid: GBcBBf3jExLmb3JSMt2K3mYn-gzGzoHsz ## your leancloud application appid
+  appkey: fzAS8oS7VtSLRUVVKOviv671 ## your leancloud application appkey
+  notify: true ## mail notifier , https://github.com/xCss/Valine/wiki
   verify: false ## Verification code
   placeholder: Just go go ## comment input placeholder text 
-  avatar: 'mm' ## header image https://github.com/xCss/Valine/wiki
+  avatar: 'wavatar' ## header image https://github.com/xCss/Valine/wiki
   pageSize: 10 ## 
-  guest_info: nick,mail,link
+  guest_info: nick,mail
 
 google_search: true ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
