@@ -46,7 +46,7 @@ canvas_nest:
   zIndex: ## The z-index property of the background, e.g. "-1"
   count: ## Quantity of lines, e.g. "150"
 donate:
-  enable: false ## If you want to show the donate button after each post, please set the value to true and fill the following items according to your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
+  enable: true ## If you want to show the donate button after each post, please set the value to true and fill the following items according to your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
   github: ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
   alipay_qr: /img/AliPayQR.jpg
   wechat_qr: /img/WeChatQR.jpg
@@ -75,7 +75,8 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - recent_posts
   - recent_comments
   - links
-  - qrcode
+
+  # - qrcode
 
 qrcode: /img/AliRedPacket.jpeg
 
