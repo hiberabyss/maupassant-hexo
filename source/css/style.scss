@@ -266,7 +266,7 @@ div {
         padding-top: 15px;
         text-align: justify;
         text-justify: distribute;
-        word-break: break-all;
+        word-break: normal;
         h2 {
             margin: 1.4em 0 1.1em;
             border-bottom: 1px solid #eee;
@@ -289,7 +289,7 @@ div {
             a {
                 color: #01579f;
                 padding-bottom: 2px;
-                word-break: break-all;
+                word-break: normal;
                 &:hover {
                     text-decoration: underline;
                 }
@@ -330,7 +330,7 @@ div {
             a {
                 color: #01579f;
                 padding-bottom: 2px;
-                word-break: break-all;
+                word-break: normal;
                 &:hover {
                     text-decoration: underline;
                 }
