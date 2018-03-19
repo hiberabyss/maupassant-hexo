@@ -71,6 +71,7 @@ if theme.gitalk.enable == true
     #container
     link(rel='stylesheet', type='text/css', href='//unpkg.com/gitalk/dist/gitalk.css?v=' + theme.version)
     script(type='text/javascript' src='//unpkg.com/gitalk/dist/gitalk.min.js?v=' + theme.version)
+    script(type='text/javascript' src='//cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js')
     script.
       var gitalk = new Gitalk({
         clientID: '#{theme.gitalk.client_id}',
@@ -78,6 +79,7 @@ if theme.gitalk.enable == true
         repo: '#{theme.gitalk.repo}',
         owner: '#{theme.gitalk.owner}',
         admin: ['#{theme.gitalk.admin}'],
+        id: md5(window.location.pathname),
         distractionFreeMode: false
       })
       gitalk.render('container')
