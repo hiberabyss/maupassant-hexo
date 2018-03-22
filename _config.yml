@@ -75,6 +75,9 @@ menu:
   - page: rss
     directory: atom.xml
     icon: fa-rss
+  - page: Slides
+    directory: slides/publish
+    icon: fa-slideshare
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
