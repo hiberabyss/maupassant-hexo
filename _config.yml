@@ -86,6 +86,7 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - recent_posts
   - recent_comments
   - links
+
   # - qrcode
 
 qrcode: /img/AliRedPacket.jpeg
