@@ -23,7 +23,7 @@ changyan_conf: ## You changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
 
 # https://valine.js.org
 valine:
-  enable: true ## if you want to use Valine comment system, please set the value to true
+  enable: false ## if you want to use Valine comment system, please set the value to true
   appid: GBcBBf3jExLmb3JSMt2K3mYn-gzGzoHsz ## your leancloud application appid
   appkey: fzAS8oS7VtSLRUVVKOviv671 ## your leancloud application appkey
   notify: true ## mail notifier , https://github.com/xCss/Valine/wiki
