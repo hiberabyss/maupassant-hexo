@@ -1,0 +1,12 @@
+if theme.recommendations.enable == true
+  .widget
+    .widget-title
+      i(class='fa fa-qrcode')= ' ' + __('recommendations')
+    if theme.recommendations.v2ex
+      .v2ex
+        ul
+        a(href='http://www.v2ex.com/?r=hbliu' target='_blank') #{'V2EX注册邀请链接'}
+    if theme.recommendations.ali_redpacket
+      .alipay
+        ul
+        img(src=theme.recommendations.ali_redpacket, width=230)

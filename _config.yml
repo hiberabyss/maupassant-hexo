@@ -86,10 +86,14 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - recent_posts
   - recent_comments
   - links
+  - recommendations
 
-  # - qrcode
+recommendations:
+  enable: true
+  v2ex: true
+  # ali_redpacket: /img/AliRedPacket.jpeg
 
-qrcode: /img/AliRedPacket.jpeg
+# qrcode: /img/AliRedPacket.jpeg
 
 highlight:
   enable: false
