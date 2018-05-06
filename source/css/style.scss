@@ -1714,7 +1714,6 @@ em.search-keyword {
   text-shadow: 0
 }
 
-
 // Custom styles.
 .post-copyright {
     margin: 2em 0 0;
@@ -1725,4 +1724,14 @@ em.search-keyword {
     li {
         margin: 8px 0;
     }
+}
+
+.recommended_posts {
+    padding: 0.5em 1em;
+    border-left: 3px solid #6f42c1;
+    background-color: #f5f0fa;
+    li { margin: 5px 0; }
+    a:link { color: blue; }
+    a:hover { text-decoration:underline;color: red}
+    a:visited { color: green; }
 }
