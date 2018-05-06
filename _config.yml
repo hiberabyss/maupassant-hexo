@@ -101,6 +101,10 @@ highlight:
   line_number: false
   tab_replace: 
 
+post_copyright:
+  enable: true
+  author: "Hongbo Liu"
+
 links:
   - title: Coolshell
     url: http://coolshell.cn
