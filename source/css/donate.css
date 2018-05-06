@@ -204,11 +204,11 @@ a{
 #MainBox.showQR {
 	opacity: 1;
     animation-name:showQR;
-    animation-duration:3s;
+    animation-duration:0.5s;
     animation-timing-function:ease-in-out;
     animation-iteration-count:1;
     animation-fill-mode:forwards;
-    -webkit-animation:showQR 3s ease-in-out 0s 1 normal forwards;
+    -webkit-animation:showQR 0.5s ease-in-out 0s 1 normal forwards;
 }
 @keyframes showQR {
 	from {
