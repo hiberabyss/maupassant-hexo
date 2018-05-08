@@ -95,6 +95,7 @@ recommendations:
 
 recommended_posts:
   enable: true
+  title: 推荐阅读
 
 # qrcode: /img/AliRedPacket.jpeg
 
