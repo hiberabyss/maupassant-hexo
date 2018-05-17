@@ -85,8 +85,9 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - tag
   - recent_posts
   - recent_comments
-  - links
   - recommendations
+
+  # - links
 
 recommendations:
   enable: true
@@ -97,21 +98,13 @@ recommended_posts:
   enable: true
   title: 推荐阅读
 
-# qrcode: /img/AliRedPacket.jpeg
-
-highlight:
-  enable: false
-  auto_detect: true
-  line_number: false
-  tab_replace: 
-
 post_copyright:
   enable: true
   author: Hongbo Liu
 
-links:
-  - title: Coolshell
-    url: http://coolshell.cn
+# links:
+  # - title: Coolshell
+    # url: http://coolshell.cn
 
 timeline:
   - num: 1
