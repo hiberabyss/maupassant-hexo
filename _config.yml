@@ -93,6 +93,7 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
 recommendations:
   enable: true
   v2ex: true
+  dropbox: true
   # ali_redpacket: /img/AliRedPacket.jpeg
 
 recommended_posts:
