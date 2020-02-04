@@ -1,12 +1,12 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
 # disqus: hiberabyss ## Your disqus_shortname, e.g. username
 
-gitment:
-  enable: false ## If you want to use Gitment comment system please set the value to true.
-  owner: hiberabyss
-  repo: BlogComments
-  client_id: 1d8f8c20107ae25974a9
-  client_secret: 51011f6d751dd26667d56df8aa0d1c2e5e8847ab
+# gitment:
+#   enable: false ## If you want to use Gitment comment system please set the value to true.
+#   owner: hiberabyss
+#   repo: BlogComments
+#   client_id: 1d8f8c20107ae25974a9
+#   client_secret: 51011f6d751dd26667d56df8aa0d1c2e5e8847ab
 
 gitalk:
   enable: true ## If you want to use Gitment comment system please set the value to true.
