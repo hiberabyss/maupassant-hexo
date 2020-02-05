@@ -8,13 +8,13 @@ fancybox: true ## If you want to use fancybox please set the value to true.
 #   client_id: 1d8f8c20107ae25974a9
 #   client_secret: 51011f6d751dd26667d56df8aa0d1c2e5e8847ab
 
-gitalk:
-  enable: true ## If you want to use Gitment comment system please set the value to true.
-  owner: hiberabyss ## Your GitHub ID, e.g. username
-  repo: BlogComments ## The repository to store your comments, make sure you're the repo's owner, e.g. gitalk.github.io
-  client_id: 1d8f8c20107ae25974a9 ## GitHub client ID, e.g. 75752dafe7907a897619
-  client_secret: 51011f6d751dd26667d56df8aa0d1c2e5e8847ab ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
-  admin: ['hiberabyss']
+# gitalk:
+#   enable: true ## If you want to use Gitment comment system please set the value to true.
+#   owner: hiberabyss ## Your GitHub ID, e.g. username
+#   repo: BlogComments ## The repository to store your comments, make sure you're the repo's owner, e.g. gitalk.github.io
+#   client_id: 1d8f8c20107ae25974a9 ## GitHub client ID, e.g. 75752dafe7907a897619
+#   client_secret: 51011f6d751dd26667d56df8aa0d1c2e5e8847ab ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
+#   admin: ['hiberabyss']
 
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
