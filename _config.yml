@@ -88,8 +88,6 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - recent_comments
   - recommendations
 
-  # - links
-
 recommendations:
   enable: true
   v2ex: true
