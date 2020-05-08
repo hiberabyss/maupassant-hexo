@@ -94,10 +94,6 @@ recommendations:
   dropbox: true
   # ali_redpacket: /img/AliRedPacket.jpeg
 
-recommended_posts:
-  enable: true
-  title: 推荐阅读
-
 post_copyright:
   enable: true
   author: Hongbo Liu
